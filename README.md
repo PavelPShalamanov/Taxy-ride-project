@@ -1,1 +1,0 @@
-This is where information about the project will be added as it is getting developed
