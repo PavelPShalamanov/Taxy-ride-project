@@ -27,3 +27,4 @@ dist-ssr
 .order
 README.md
 .env
+.nvmrc
