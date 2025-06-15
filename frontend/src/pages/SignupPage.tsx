@@ -23,7 +23,9 @@ function SignupPage() {
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
       try{
-        const response = await fetch ("http://backend:5000/submit", {
+        console.log("Hello from Submit")
+        console.log("Sending request to:", import.meta.env.VITE_API_URL);
+        const response = await fetch (`${import.meta.env.VITE_API_URL}/submit`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json"

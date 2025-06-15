@@ -6,4 +6,9 @@ RUN npm install
 COPY . .
 
 EXPOSE 5000
-CMD ["node", "server.js"]
+
+# Development
+CMD [ "npx", "nodemon", "server.js" ]
+
+# Production
+# CMD ["node", "server.js"]

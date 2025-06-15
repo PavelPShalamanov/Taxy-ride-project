@@ -26,3 +26,4 @@ dist-ssr
 #custom
 .order
 README.md
+.env
